@@ -1,5 +1,9 @@
 # Motion Matching in Unity — Mixamo Pipeline
 
+![Motion Matching debug view](Docs/screenshot.png)
+
+*Debug view: current pose (red), future trajectory and matched poses.*
+
 Locomotion system based on **Motion Matching** in Unity 6 (URP), built on the open-source
 [MotionMatching](https://github.com/JLPM22/MotionMatching) package by JLPM22.
 My work: converting Mixamo mocap into a format the package accepts, building a custom
