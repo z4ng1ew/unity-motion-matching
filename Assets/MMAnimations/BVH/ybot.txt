@@ -1,0 +1,318 @@
+HIERARCHY
+ROOT mixamorig:Hips
+{
+	OFFSET -0.000007 99.791939 0.000048
+	CHANNELS 6 Xposition Yposition Zposition Yrotation Xrotation Zrotation
+	JOINT mixamorig:Spine
+	{
+		OFFSET -0.000008 9.923462 -1.227335
+		CHANNELS 3 Yrotation Xrotation Zrotation
+		JOINT mixamorig:Spine1
+		{
+			OFFSET -0.001162 11.645439 -1.422341
+			CHANNELS 3 Yrotation Xrotation Zrotation
+			JOINT mixamorig:Spine2
+			{
+				OFFSET -0.001082 13.360199 -1.626459
+				CHANNELS 3 Yrotation Xrotation Zrotation
+				JOINT mixamorig:Neck
+				{
+					OFFSET -0.001294 15.032486 0.792904
+					CHANNELS 3 Yrotation Xrotation Zrotation
+					JOINT mixamorig:Head
+					{
+						OFFSET -0.000902 10.321838 3.142429
+						CHANNELS 3 Yrotation Xrotation Zrotation
+						End Site
+						{
+							OFFSET -0.001724 19.630463 -0.000000
+						}
+					}
+				}
+				JOINT mixamorig:LeftShoulder
+				{
+					OFFSET 6.105025 9.110947 0.705547
+					CHANNELS 3 Yrotation Xrotation Zrotation
+					JOINT mixamorig:LeftArm
+					{
+						OFFSET 12.655060 -0.264816 -2.600928
+						CHANNELS 3 Yrotation Xrotation Zrotation
+						JOINT mixamorig:LeftForeArm
+						{
+							OFFSET 27.404680 0.002457 -0.000007
+							CHANNELS 3 Yrotation Xrotation Zrotation
+							JOINT mixamorig:LeftHand
+							{
+								OFFSET 27.614456 0.002457 0.000007
+								CHANNELS 3 Yrotation Xrotation Zrotation
+								JOINT mixamorig:LeftHandThumb1
+								{
+									OFFSET 3.789009 -2.166824 3.002973
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:LeftHandThumb2
+									{
+										OFFSET 3.675636 -2.121704 2.122010
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:LeftHandThumb3
+										{
+											OFFSET 3.394531 -1.959473 1.959746
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET 2.679504 -1.546753 1.546945
+											}
+										}
+									}
+								}
+								JOINT mixamorig:LeftHandIndex1
+								{
+									OFFSET 12.266647 -0.230743 2.822040
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:LeftHandIndex2
+									{
+										OFFSET 3.891968 0.000336 0.000037
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:LeftHandIndex3
+										{
+											OFFSET 3.415161 0.000305 -0.000010
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET 3.077995 0.000275 -0.000009
+											}
+										}
+									}
+								}
+								JOINT mixamorig:LeftHandMiddle1
+								{
+									OFFSET 12.775536 0.001129 0.000014
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:LeftHandMiddle2
+									{
+										OFFSET 3.613968 0.000320 0.000000
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:LeftHandMiddle3
+										{
+											OFFSET 3.459763 0.000305 -0.000028
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET 3.680191 0.000320 0.000000
+											}
+										}
+									}
+								}
+								JOINT mixamorig:LeftHandRing1
+								{
+									OFFSET 12.147018 0.011063 -2.216636
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:LeftHandRing2
+									{
+										OFFSET 3.601181 0.000320 0.000033
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:LeftHandRing3
+										{
+											OFFSET 3.307320 0.000305 -0.000023
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET 3.660126 0.000336 -0.000024
+											}
+										}
+									}
+								}
+								JOINT mixamorig:LeftHandPinky1
+								{
+									OFFSET 10.908218 -0.225174 -4.725837
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:LeftHandPinky2
+									{
+										OFFSET 4.136658 0.000351 0.001166
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:LeftHandPinky3
+										{
+											OFFSET 2.594826 0.000244 -0.001180
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET 2.923874 0.000244 0.000018
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				JOINT mixamorig:RightShoulder
+				{
+					OFFSET -6.106495 9.109970 0.705565
+					CHANNELS 3 Yrotation Xrotation Zrotation
+					JOINT mixamorig:RightArm
+					{
+						OFFSET -12.655020 -0.267136 -2.600890
+						CHANNELS 3 Yrotation Xrotation Zrotation
+						JOINT mixamorig:RightForeArm
+						{
+							OFFSET -27.404675 -0.002365 0.000019
+							CHANNELS 3 Yrotation Xrotation Zrotation
+							JOINT mixamorig:RightHand
+							{
+								OFFSET -27.614464 -0.002396 0.000031
+								CHANNELS 3 Yrotation Xrotation Zrotation
+								JOINT mixamorig:RightHandThumb1
+								{
+									OFFSET -3.788620 -2.167480 3.002977
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:RightHandThumb2
+									{
+										OFFSET -3.675247 -2.122314 2.122009
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:RightHandThumb3
+										{
+											OFFSET -3.394188 -1.960129 1.959755
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET -2.679230 -1.547226 1.546945
+											}
+										}
+									}
+								}
+								JOINT mixamorig:RightHandIndex1
+								{
+									OFFSET -12.266594 -0.232895 2.822051
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:RightHandIndex2
+									{
+										OFFSET -3.891968 -0.000336 0.000040
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:RightHandIndex3
+										{
+											OFFSET -3.415161 -0.000305 -0.000006
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET -3.077988 -0.000275 0.000006
+											}
+										}
+									}
+								}
+								JOINT mixamorig:RightHandMiddle1
+								{
+									OFFSET -12.775528 -0.001114 0.000025
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:RightHandMiddle2
+									{
+										OFFSET -3.613968 -0.000320 0.000005
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:RightHandMiddle3
+										{
+											OFFSET -3.459763 -0.000305 -0.000025
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET -3.680191 -0.000320 0.000005
+											}
+										}
+									}
+								}
+								JOINT mixamorig:RightHandRing1
+								{
+									OFFSET -12.147003 0.008942 -2.216624
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:RightHandRing2
+									{
+										OFFSET -3.601196 -0.000320 0.000037
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:RightHandRing3
+										{
+											OFFSET -3.307312 -0.000290 -0.000019
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET -3.660126 -0.000320 -0.000022
+											}
+										}
+									}
+								}
+								JOINT mixamorig:RightHandPinky1
+								{
+									OFFSET -10.908173 -0.227081 -4.725826
+									CHANNELS 3 Yrotation Xrotation Zrotation
+									JOINT mixamorig:RightHandPinky2
+									{
+										OFFSET -4.136642 -0.000366 0.000029
+										CHANNELS 3 Yrotation Xrotation Zrotation
+										JOINT mixamorig:RightHandPinky3
+										{
+											OFFSET -2.594841 -0.000229 -0.000036
+											CHANNELS 3 Yrotation Xrotation Zrotation
+											End Site
+											{
+												OFFSET -2.923874 -0.000259 0.000021
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	JOINT mixamorig:LeftUpLeg
+	{
+		OFFSET 9.124458 -6.656387 -0.055378
+		CHANNELS 3 Yrotation Xrotation Zrotation
+		JOINT mixamorig:LeftLeg
+		{
+			OFFSET 0.244681 -40.595421 -0.515619
+			CHANNELS 3 Yrotation Xrotation Zrotation
+			JOINT mixamorig:LeftFoot
+			{
+				OFFSET -0.244669 -42.047928 -2.059156
+				CHANNELS 3 Yrotation Xrotation Zrotation
+				JOINT mixamorig:LeftToeBase
+				{
+					OFFSET 0.373535 -7.208548 13.966561
+					CHANNELS 3 Yrotation Xrotation Zrotation
+					End Site
+					{
+						OFFSET -0.142059 -0.175224 9.997455
+					}
+				}
+			}
+		}
+	}
+	JOINT mixamorig:RightUpLeg
+	{
+		OFFSET -9.124448 -6.656403 -0.055378
+		CHANNELS 3 Yrotation Xrotation Zrotation
+		JOINT mixamorig:RightLeg
+		{
+			OFFSET -0.244680 -40.595459 -0.514290
+			CHANNELS 3 Yrotation Xrotation Zrotation
+			JOINT mixamorig:RightFoot
+			{
+				OFFSET 0.244670 -42.047859 -2.060535
+				CHANNELS 3 Yrotation Xrotation Zrotation
+				JOINT mixamorig:RightToeBase
+				{
+					OFFSET -0.373535 -7.208539 13.966558
+					CHANNELS 3 Yrotation Xrotation Zrotation
+					End Site
+					{
+						OFFSET 0.141798 -0.175009 9.997463
+					}
+				}
+			}
+		}
+	}
+}
+MOTION
+Frames: 2
+Frame Time: 0.033333
+-0.000033 99.791870 0.000052 -0.000041 0.000000 -0.000002 0.000001 0.000001 -0.000029 0.000000 0.000001 -0.000000 -0.000000 -0.000002 -0.000000 -0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000001 -0.000006 -0.007237 0.000152 -0.000022 0.002186 -0.000000 -0.000009 0.000003 -0.000014 0.000020 -0.000007 -0.000049 -0.000035 -0.000029 0.000270 -0.000253 0.000706 -0.000002 0.000002 0.000006 0.000564 0.000010 0.000093 -0.000693 -0.000007 0.000014 -0.000014 0.000002 0.000010 -0.000043 0.000003 0.000107 0.000014 -0.000007 -0.000007 0.000000 0.000014 0.000000 0.000471 0.000010 0.000100 -0.000914 -0.000005 -0.000290 0.000014 0.000007 -0.000010 0.016171 0.000008 0.000314 -0.042207 0.000007 -0.000714 0.026307 -0.000002 0.000407 -0.000002 0.000003 -0.007209 0.000051 -0.000028 0.002293 0.000000 -0.000009 -0.000003 0.000014 0.000020 0.000007 0.000100 -0.000072 0.000051 -0.000219 -0.000385 -0.000892 0.000000 0.000001 0.000001 -0.000493 0.000003 -0.000097 0.000478 0.000001 -0.000010 0.000014 0.000002 -0.000010 0.000014 0.000004 -0.000107 -0.000014 -0.000007 0.000007 0.000000 0.000014 -0.000000 -0.000600 0.000012 -0.000100 0.000914 -0.000005 -0.000010 -0.000014 0.000005 0.000010 -0.000400 0.000012 -0.000114 0.001207 0.000005 0.000017 -0.001207 -0.000012 -0.000007 0.000001 -0.001180 0.000010 -0.000006 0.002268 -0.000000 0.000007 -0.001076 -0.000041 -0.000000 -0.000007 -0.000000 0.000001 -0.000052 0.000024 -0.000000 -0.000001 -0.000000 0.000000 0.000051 -0.000058 0.000000 0.000012 0.000000 
+-0.000033 99.791870 0.000052 -0.000041 0.000000 -0.000002 0.000001 0.000001 -0.000029 0.000000 0.000001 -0.000000 -0.000000 -0.000002 -0.000000 -0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000001 -0.000006 -0.007237 0.000152 -0.000022 0.002186 -0.000000 -0.000009 0.000003 -0.000014 0.000020 -0.000007 -0.000049 -0.000035 -0.000029 0.000270 -0.000253 0.000706 -0.000002 0.000002 0.000006 0.000564 0.000010 0.000093 -0.000693 -0.000007 0.000014 -0.000014 0.000002 0.000010 -0.000043 0.000003 0.000107 0.000014 -0.000007 -0.000007 0.000000 0.000014 0.000000 0.000471 0.000010 0.000100 -0.000914 -0.000005 -0.000290 0.000014 0.000007 -0.000010 0.016171 0.000008 0.000314 -0.042207 0.000007 -0.000714 0.026307 -0.000002 0.000407 -0.000002 0.000003 -0.007209 0.000051 -0.000028 0.002293 0.000000 -0.000009 -0.000003 0.000014 0.000020 0.000007 0.000100 -0.000072 0.000051 -0.000219 -0.000385 -0.000892 0.000000 0.000001 0.000001 -0.000493 0.000003 -0.000097 0.000478 0.000001 -0.000010 0.000014 0.000002 -0.000010 0.000014 0.000004 -0.000107 -0.000014 -0.000007 0.000007 0.000000 0.000014 -0.000000 -0.000600 0.000012 -0.000100 0.000914 -0.000005 -0.000010 -0.000014 0.000005 0.000010 -0.000400 0.000012 -0.000114 0.001207 0.000005 0.000017 -0.001207 -0.000012 -0.000007 0.000001 -0.001180 0.000010 -0.000006 0.002268 -0.000000 0.000007 -0.001076 -0.000041 -0.000000 -0.000007 -0.000000 0.000001 -0.000052 0.000024 -0.000000 -0.000001 -0.000000 0.000000 0.000051 -0.000058 0.000000 0.000012 0.000000 

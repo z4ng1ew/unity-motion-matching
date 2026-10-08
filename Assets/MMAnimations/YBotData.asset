@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0bb4b3a7b78d847be4e6490640196f, type: 3}
+  m_Name: YBotData
+  m_EditorClassIdentifier: 
+  AnimationDatas:
+  - {fileID: 11400000, guid: 2e41603f081d488ad87fa0a0b2a45d83, type: 2}
+  - {fileID: 11400000, guid: c6ae179df901d64f6ad81d6621771eb5, type: 2}
+  - {fileID: 11400000, guid: 884d59d0d44d0e19aa5c4bb79a47dbb2, type: 2}
+  - {fileID: 11400000, guid: 7d8e7bbf0fe2135748f0cd826ac9acab, type: 2}
+  - {fileID: 11400000, guid: a5a07432e41b14f0ebf0cdfa064d0bde, type: 2}
+  - {fileID: 11400000, guid: 6560eb6fe021774f1865d9bb68685e0d, type: 2}
+  - {fileID: 11400000, guid: a76af66dbd934ca9c9b5abbcbd527973, type: 2}
+  - {fileID: 11400000, guid: ef14d14f0c7f0fa38a94ad92b47efcb3, type: 2}
+  - {fileID: 11400000, guid: d7343c522fef03895957a536a033be72, type: 2}
+  AnimationDataTPose: {fileID: 11400000, guid: dbb2a7a3e2754443e82b96529016c243, type: 2}
+  HipsForwardLocalVector:
+    x: 0
+    y: 0
+    z: -1
+  HipsUpLocalVector:
+    x: 0
+    y: 1
+    z: 0
+  ContactVelocityThreshold: 0.15
+  SkeletonToMecanim:
+  - Name: mixamorig:Hips
+    MecanimBone: 0
+  - Name: mixamorig:Spine
+    MecanimBone: 7
+  - Name: mixamorig:Spine1
+    MecanimBone: 8
+  - Name: mixamorig:Spine2
+    MecanimBone: 54
+  - Name: mixamorig:Neck
+    MecanimBone: 9
+  - Name: mixamorig:Head
+    MecanimBone: 10
+  - Name: mixamorig:LeftShoulder
+    MecanimBone: 11
+  - Name: mixamorig:LeftArm
+    MecanimBone: 13
+  - Name: mixamorig:LeftForeArm
+    MecanimBone: 15
+  - Name: mixamorig:LeftHand
+    MecanimBone: 17
+  - Name: mixamorig:LeftHandThumb1
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandThumb2
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandThumb3
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandIndex1
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandIndex2
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandIndex3
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandMiddle1
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandMiddle2
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandMiddle3
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandRing1
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandRing2
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandRing3
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandPinky1
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandPinky2
+    MecanimBone: 55
+  - Name: mixamorig:LeftHandPinky3
+    MecanimBone: 55
+  - Name: mixamorig:RightShoulder
+    MecanimBone: 12
+  - Name: mixamorig:RightArm
+    MecanimBone: 14
+  - Name: mixamorig:RightForeArm
+    MecanimBone: 16
+  - Name: mixamorig:RightHand
+    MecanimBone: 18
+  - Name: mixamorig:RightHandThumb1
+    MecanimBone: 55
+  - Name: mixamorig:RightHandThumb2
+    MecanimBone: 55
+  - Name: mixamorig:RightHandThumb3
+    MecanimBone: 55
+  - Name: mixamorig:RightHandIndex1
+    MecanimBone: 55
+  - Name: mixamorig:RightHandIndex2
+    MecanimBone: 55
+  - Name: mixamorig:RightHandIndex3
+    MecanimBone: 55
+  - Name: mixamorig:RightHandMiddle1
+    MecanimBone: 55
+  - Name: mixamorig:RightHandMiddle2
+    MecanimBone: 55
+  - Name: mixamorig:RightHandMiddle3
+    MecanimBone: 55
+  - Name: mixamorig:RightHandRing1
+    MecanimBone: 55
+  - Name: mixamorig:RightHandRing2
+    MecanimBone: 55
+  - Name: mixamorig:RightHandRing3
+    MecanimBone: 55
+  - Name: mixamorig:RightHandPinky1
+    MecanimBone: 55
+  - Name: mixamorig:RightHandPinky2
+    MecanimBone: 55
+  - Name: mixamorig:RightHandPinky3
+    MecanimBone: 55
+  - Name: mixamorig:LeftUpLeg
+    MecanimBone: 1
+  - Name: mixamorig:LeftLeg
+    MecanimBone: 3
+  - Name: mixamorig:LeftFoot
+    MecanimBone: 5
+  - Name: mixamorig:LeftToeBase
+    MecanimBone: 19
+  - Name: mixamorig:RightUpLeg
+    MecanimBone: 2
+  - Name: mixamorig:RightLeg
+    MecanimBone: 4
+  - Name: mixamorig:RightFoot
+    MecanimBone: 6
+  - Name: mixamorig:RightToeBase
+    MecanimBone: 20
+  TrajectoryFeatures:
+  - Name: FuturePosition
+    FeatureType: 0
+    FramesPrediction: 14000000280000003c000000i
+    SimulationBone: 1
+    Bone: 0
+    ZeroX: 0
+    ZeroY: 1
+    ZeroZ: 0
+    FeatureExtractor: {fileID: 0}
+    IsMainPositionFeature: 1
+  - Name: FutureDirection
+    FeatureType: 1
+    FramesPrediction: 14000000280000003c000000i
+    SimulationBone: 1
+    Bone: 0
+    ZeroX: 0
+    ZeroY: 1
+    ZeroZ: 0
+    FeatureExtractor: {fileID: 0}
+    IsMainPositionFeature: 0
+  PoseFeatures:
+  - Name: LeftFootPosition
+    FeatureType: 0
+    Bone: 5
+  - Name: LeftFootVelocity
+    FeatureType: 1
+    Bone: 5
+  - Name: RightFootPosition
+    FeatureType: 0
+    Bone: 6
+  - Name: RightFootVelocity
+    FeatureType: 1
+    Bone: 6
+  - Name: HipsVelocity
+    FeatureType: 1
+    Bone: 0
+  EnvironmentFeatures: []
+  JointsLocalForward:
+  - x: 0
+    y: 0
+    z: 1
+  - x: 1.8342991e-19
+    y: 0
+    z: -1
+  - x: -0.000000017453322
+    y: 0.000000017453285
+    z: -1
+  - x: -0.000000017453326
+    y: 0.000000034906577
+    z: -1
+  - x: -0.000000017453317
+    y: -7.969672e-15
+    z: -1
+  - x: -0.000000017453317
+    y: -7.969672e-15
+    z: -1
+  - x: -0.000000017453317
+    y: -7.969672e-15
+    z: -1
+  - x: -0.00000003489334
+    y: -0.00000010472419
+    z: -1
+  - x: 1
+    y: 0.00008869764
+    z: -0.0000026279215
+  - x: 1
+    y: 0.000088645276
+    z: -0.0000026279356
+  - x: 1
+    y: 0.000088767454
+    z: -0.0000023835587
+  - x: -0.0000015882546
+    y: -0.00000090747403
+    z: -1
+  - x: -0.0000063007087
+    y: -0.0000053230797
+    z: -1
+  - x: -0.0000062658023
+    y: -0.0000052881724
+    z: -1
+  - x: -0.000012287122
+    y: -0.0000001220551
+    z: -1
+  - x: -0.00000019199292
+    y: -0.00000024422815
+    z: -1
+  - x: 0.000000052353226
+    y: -0.00000020932154
+    z: -1
+  - x: -0.0000016929749
+    y: -0.00000024424494
+    z: -1
+  - x: -0.0000019373208
+    y: -0.00000036641825
+    z: -1
+  - x: -0.000001937321
+    y: -0.00000012207217
+    z: -1
+  - x: -0.000010663967
+    y: -0.00000012205643
+    z: -1
+  - x: 0.000005288342
+    y: -0.0000002092962
+    z: -1
+  - x: 0.0000050439958
+    y: -0.00000008712221
+    z: -1
+  - x: -0.0002846807
+    y: -0.00000015542153
+    z: -0.99999994
+  - x: 0.00045197047
+    y: -0.000000027616156
+    z: -0.9999999
+  - x: -0.000007173276
+    y: -0.00000006247178
+    z: -1
+  - x: 0.000000017446714
+    y: 0.000000052362076
+    z: -1
+  - x: -1
+    y: -0.000086341446
+    z: 0.00000081279245
+  - x: -1
+    y: -0.000086393804
+    z: 0.000000812806
+  - x: -1
+    y: -0.00008627163
+    z: 0.0000010571222
+  - x: -0.0000028623645
+    y: -0.0000015009434
+    z: -1
+  - x: 0.0000009600337
+    y: -0.000008220446
+    z: -1
+  - x: 0.0000009600334
+    y: -0.000008202993
+    z: -1
+  - x: 0.00000748744
+    y: -0.0000001919364
+    z: -1
+  - x: -0.0000008552345
+    y: -0.0000001744832
+    z: -1
+  - x: -0.0000010995803
+    y: -0.00000013957677
+    z: -1
+  - x: -0.0000013613806
+    y: -0.00000017449827
+    z: -1
+  - x: -0.0000011170346
+    y: -0.0000002966712
+    z: -1
+  - x: -0.0000011170346
+    y: -0.000000052325042
+    z: -1
+  - x: 0.000009354942
+    y: -0.00000003485303
+    z: -1
+  - x: -0.000006597368
+    y: -0.00000012212068
+    z: -1
+  - x: -0.000006353022
+    y: -0.00000003485312
+    z: -1
+  - x: 0.0000058642813
+    y: -0.000000034857653
+    z: -1
+  - x: -0.000015201843
+    y: 0.000000052413302
+    z: -1
+  - x: 0.0000058642813
+    y: -0.00000015702555
+    z: -1
+  - x: -0.000000017456857
+    y: -0.000020594885
+    z: -1
+  - x: 0.00000008726291
+    y: 0.000018989183
+    z: -1
+  - x: -0.000000034910332
+    y: 0.00000020943844
+    z: -1
+  - x: -0.000000034910297
+    y: 0.00000008726601
+    z: -1
+  - x: -0.000000017453662
+    y: -0.0000009075712
+    z: -1
+  - x: -0.000000017453665
+    y: -0.0000009250245
+    z: -1
+  - x: -0.000000017453647
+    y: -0.00000003490664
+    z: -1
+  - x: -0.000000017453656
+    y: 0.00000017453293
+    z: -1
